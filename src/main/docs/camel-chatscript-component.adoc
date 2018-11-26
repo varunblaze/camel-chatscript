@@ -47,7 +47,7 @@ with the following path and query parameters:
 [width="100%",cols="2,5,^1,2",options="header"]
 |===
 | Name | Description | Default | Type
-| *BotName* | *Required* Name of the Bot in CS to converse with | Harry | String
+| *BotName* | *Required* Name of the Bot in CS to converse with | Harry | String |
 |===
 
 
