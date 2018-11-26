@@ -7,6 +7,15 @@ The *ChatScript:* component allows you to interact with ChatScript Server and ha
 
 Original ChatScript is available here : https://github.com/bwilcox-1234/ChatScript
 
+This component expects a JSON having the following fields:
+{
+username:
+botname:
+body:
+}
+
+Refer ChatScriptMessage.java and samples  
+
 Maven users will need to add the following dependency to their `pom.xml`
 for this component:
 
@@ -61,13 +70,6 @@ with the following path and query parameters:
 
 // endpoint options: END
 // spring-boot-auto-configure options: START
-=== Spring Boot Auto-Configuration
 
-This component expects a JSON having the following fields:
-{
-username:
-botname:
-body:
-}
 
-Refer ChatScriptMessage.java and samples  
+
